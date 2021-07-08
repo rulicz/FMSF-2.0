@@ -1,0 +1,16 @@
+! Title: uBlock
+! Expires: 3 days
+! Description: Extra filters optimized for uBlock
+! Homepage: https://github.com/rulicz/FMSF-2.0
+! Licence: https://github.com/rulicz/FMSF-2.0/blob/master/LICENSE
+! Last updated: 2021-07-08
+
+!youtube.com###primary:style(display: none !important)
+!youtube.com###secondary:style(width: 100vw !important)
+|*.gif^$domain=phut90.online|phut91.online|90phut.link|tiengruoi.link|cbox.ws
+||pornhub.com^
+||xvideos.com^
+tiengruoi.link#@#+js(acis, $, overlay)
+tiengruoi.link###overlay,#quangcaomb,#quangcaopc:remove()
+tiengruoi.link##+js(acis, window.setTimeout, setFullscreen)
+tiengruoi.link##body:style(overflow: visible !important)
